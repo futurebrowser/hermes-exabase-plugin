@@ -1,4 +1,4 @@
-# Exabase M-1 Memory
+# Exabase M-1 Memory Plugin for Hermes Agent
 
 Exabase M-1 memory-provider integration for Hermes Agent.
 
