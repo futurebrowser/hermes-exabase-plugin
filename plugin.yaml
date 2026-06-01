@@ -1,0 +1,7 @@
+name: exabase
+version: 0.1.0
+description: "Exabase M-1 long-term memory with add and search tools."
+pip_dependencies:
+  - requests
+requires_env:
+  - EXABASE_API_KEY
