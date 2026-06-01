@@ -23,29 +23,25 @@ API key.
 
 ## Configuration
 
-### Base ID (optional)
+The plugin can be configured with optional parameters that control how memories
+are stored and retrieved.
 
-The Exabase Base used for storing memories. This lets you scope memories and
-separate them by project, agent, or any other criteria. If not provided, no
-scoping will be used and memories will be stored in the default base.
+- **Base ID**: The Exabase Base used for storing memories. This lets you scope
+  memories and separate them by project, agent, or any other criteria. If not
+  provided, no scoping will be used and memories will be stored in the default
+  base.
 
-### Precision (optional)
+- **Precision**: Controls the precision of memory retrieval. Higher precision
+  means only the most relevant memories will be retrieved, while lower
+  precision allows for more memories.
 
-Controls the precision of memory retrieval. Higher precision means only the
-most relevant memories will be retrieved, while lower precision allows for more
-memories.
+- **Query expansion**: Enabling query expansion allows the plugin to expand
+  search queries with related terms, which broadens the search space and may
+  help find more relevant memories at the cost of speed and Exabase credits.
 
-### Query expansion (optional)
-
-Enabling query expansion allows the plugin to expand search queries with
-related terms, which broadens the search space and may help find more relevant
-memories at the cost of speed and Exabase credits.
-
-### Result reranking (optional)
-
-Uses an additional round of processing to rerank retrieved memories based on
-relevance to the query. This may improve the ranking of relevant memories at
-the cost of speed and Exabase credits.
+- **Result reranking**: Uses an additional round of processing to rerank
+  retrieved memories based on relevance to the query. This may improve the
+  ranking of relevant memories at the cost of speed and Exabase credits.
 
 ## Tools
 
