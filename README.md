@@ -1,8 +1,27 @@
 # Exabase M-1 Memory Plugin for Hermes Agent
 
-[Exabase
-M-1](https://exabase.io/research/exabase-achieves-state-of-the-art-on-longmemeval-benchmark)
-memory-provider integration for Hermes Agent.
+Exabase M-1 memory-provider integration for Hermes Agent.
+
+## About
+
+[Exabase Memory (M-1)](https://exabase.io/memory) is a self-organising memory
+engine for AI agents. It stores facts, preferences, and events, builds a living
+knowledge graph, resolves contradictions, and evolves with every interaction.
+
+M-1 is SOTA on the leading AI memory benchmark (LongMemEval), with the highest
+recorded QA score, and using a small model. Read the research paper
+[here](https://exabase.io/research/exabase-achieves-state-of-the-art-on-longmemeval-benchmark).
+
+
+| System | Model | Score |
+| --- | --- | --- |
+| M-1 (Exabase) | Gemini 3 Flash | 96.4% |
+| Mem0 | Gemini 3 Pro | 94.8% |
+| Honcho | Gemini 3 Pro | 92.6% |
+| HydraDB | Gemini 3 Pro | 90.79% |
+| Supermemory | Gemini 3 Pro | 85.2% |
+
+Exabase Memory is powers memory in production apps like Fabric, used by 300,000+ people.
 
 ## What it does
 
