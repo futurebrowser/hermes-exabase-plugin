@@ -21,7 +21,7 @@ recorded QA score, and using a small model. Read the research paper
 | HydraDB | Gemini 3 Pro | 90.79% |
 | Supermemory | Gemini 3 Pro | 85.2% |
 
-Exabase Memory is powers memory in production apps like
+Exabase Memory powers memory in production apps like
 [Fabric](https://fabric.so), used by 300,000+ people.
 
 ## What it does
