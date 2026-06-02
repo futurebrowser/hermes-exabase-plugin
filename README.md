@@ -1,6 +1,8 @@
 # Exabase M-1 Memory Plugin for Hermes Agent
 
-Exabase M-1 memory-provider integration for Hermes Agent.
+[Exabase
+M-1](https://exabase.io/research/exabase-achieves-state-of-the-art-on-longmemeval-benchmark)
+memory-provider integration for Hermes Agent.
 
 ## What it does
 
@@ -10,12 +12,12 @@ Exabase, and provide context for future interactions.
 
 ## Installation
 
-Clone this repository, drop it in your user-plugins folder, and enable it:
+Install the plugin from this repository and enable it in your Hermes Agent
+configuration:
 
 ```bash
-git clone https://github.com/futurebrowser/hermes-exabase-plugin.git
-mkdir -p ~/.hermes/plugins && cp -r hermes-exabase-plugin ~/.hermes/plugins/exabase
-hermes memory setup
+hermes plugins install git@github.com:futurebrowser/hermes-exabase-plugin.git
+hermes memory setup  # choose 'exabase'
 ```
 
 Choose `exabase` as the memory provider when prompted and enter your Exabase
