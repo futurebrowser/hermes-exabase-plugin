@@ -14,7 +14,7 @@ Clone this repository, drop it in your user-plugins folder, and enable it:
 
 ```bash
 git clone https://github.com/futurebrowser/hermes-exabase-plugin.git
-cp -r hermes-exabase-plugin ~/.hermes/plugins/exabase
+mkdir -p ~/.hermes/plugins && cp -r hermes-exabase-plugin ~/.hermes/plugins/exabase
 hermes memory setup
 ```
 
